@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+### 西瓜视频 搜索 迪粉未知解说，点个关注吧，感谢支持！抖音同名！
+### 视频、mod制作不易，有能力就请支持一下吧！万分感谢！[https://afdian.net/@weizhijs](https://afdian.net/@weizhijs)
+### mc基岩版自制mod下载：[https://wzjs.lanzouq.com/b00tallbi](https://wzjs.lanzouq.com/b00tallbi)
 
-You can use the [editor on GitHub](https://github.com/weizhijs/weizhijs.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/weizhijs/weizhijs.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 以下为每个项目的单独链接，后续我也会把mod文件上传到github作为备份！未经允许禁止转载！！！
+迪哥建筑一键生成BE：[https://wzjs.lanzouq.com/b00ux3tvc](https://wzjs.lanzouq.com/b00ux3tvc)
+罐子里的世界BE：[https://wzjs.lanzouq.com/b00uzp6gd](https://wzjs.lanzouq.com/b00uzp6gd)
+幸运方块by未知：[https://wzjs.lanzouq.com/b00v7ebuj](https://wzjs.lanzouq.com/b00v7ebuj)
+肝尽轮回BE（正在开发中）：[https://wzjs.lanzouq.com/b00vbemuj](https://wzjs.lanzouq.com/b00vbemuj)
