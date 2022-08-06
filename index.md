@@ -11,3 +11,5 @@
 幸运方块by未知：[https://wzjs.lanzouq.com/b00v7ebuj](https://wzjs.lanzouq.com/b00v7ebuj)
 
 肝尽轮回BE（正在开发中）：[https://wzjs.lanzouq.com/b00vbemuj](https://wzjs.lanzouq.com/b00vbemuj)
+
+等价交换BE（测试，1.19.0+）：[https://wzjs.lanzouq.com/b00vpaq2f](https://wzjs.lanzouq.com/b00vpaq2f)
