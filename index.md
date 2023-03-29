@@ -1,4 +1,5 @@
 ## 西瓜视频 搜索 迪粉未知解说，点个关注吧，感谢支持！抖音同名！视频、mod制作不易，有能力就请支持一下吧！万分感谢！[https://afdian.net/@weizhijs](https://afdian.net/@weizhijs)
+# 若有bug等问题或建议，请发送邮件至2821907910@qq.com
 
 ## mc基岩版自制mod下载：[https://wzjs.lanzouq.com/b00tallbi](https://wzjs.lanzouq.com/b00tallbi)
 ## 以下为每个项目的单独链接，后续我也会把mod文件上传到github作为备份！未经允许禁止转载！！！
