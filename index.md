@@ -1,5 +1,6 @@
-## 西瓜视频 搜索 迪粉未知解说，点个关注吧，感谢支持！抖音同名！视频、mod制作不易，有能力就请支持一下吧！万分感谢！[https://afdian.net/@weizhijs](https://afdian.net/@weizhijs)
-# 若有bug等问题或建议，请发送邮件至2821907910@qq.com
+# weizhijs.github.io
+## 西瓜视频 搜索 迪粉未知解说，点个关注吧，感谢支持！抖音同名！视频、mod制作不易，有能力就请支持一下吧！万分感谢！<a href="https://afdian.net/@weizhijs">https://afdian.net/@weizhijs</a>
+## 若有bug等问题或建议，请发送邮件至2821907910@qq.com
 
 ## mc基岩版自制mod下载：以下为每个项目的单独链接，后续我也会把mod文件上传到github作为备份！未经允许禁止转载！！！
 
@@ -12,6 +13,6 @@
 ### 等价交换BE（测试，1.19.0+）：[https://wzjs.lanzouq.com/b00vpaq2f](https://wzjs.lanzouq.com/b00vpaq2f)
 
 ### 肝尽轮回BE（正在开发中）：[https://wzjs.lanzouq.com/b00vbemuj](https://wzjs.lanzouq.com/b00vbemuj)
-<!-- 这是一个注释：[https://wzjs.lanzouq.com/b00tallbi](https://wzjs.lanzouq.com/b00tallbi) -->
+<!-- <a href="https://afdian.net/@weizhijs" target="_blank" rel="noopener noreferrer">https://afdian.net/@weizhijs</a> 这是一个注释：[https://wzjs.lanzouq.com/b00tallbi](https://wzjs.lanzouq.com/b00tallbi) -->
 感谢支持！
 注：该链接已废弃 ~~[https://wzjs.lanzouq.com/b00tallbi](https://wzjs.lanzouq.com/b00tallbi)~~
