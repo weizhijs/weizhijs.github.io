@@ -15,10 +15,12 @@
 - 下载：<a href="https://wzjs.lanzouq.com/b00v7ebuj" target="_blank">https://wzjs.lanzouq.com/b00v7ebuj</a>
 
 ### 等价交换BE（测试，1.19.0+）
+- 介绍：[https://weizhijs.github.io/dgjz/h.htm](https://weizhijs.github.io/dgjz/h.htm)
 - 下载：<a href="https://wzjs.lanzouq.com/b00vpaq2f" target="_blank">https://wzjs.lanzouq.com/b00vpaq2f</a>
 
 ### 肝尽轮回BE（正在开发中）
 - 下载：<a href="https://wzjs.lanzouq.com/b00vbemuj" target="_blank">https://wzjs.lanzouq.com/b00vbemuj</a>
-<!-- <a href="https://afdian.net/@weizhijs" target="_blank" rel="noopener noreferrer">https://afdian.net/@weizhijs</a> 这是一个注释：[https://wzjs.lanzouq.com/b00tallbi](https://wzjs.lanzouq.com/b00tallbi) -->
+
+
 感谢支持！
 注：该链接已废弃 ~~https://wzjs.lanzouq.com/b00tallbi~~
