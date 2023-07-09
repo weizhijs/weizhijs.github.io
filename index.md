@@ -9,6 +9,7 @@
 - 下载：<a href="https://wzjs.lanzouq.com/b00ux3tvc" target="_blank">https://wzjs.lanzouq.com/b00ux3tvc</a>
 
 ### 罐子里的世界BE
+- 介绍：[https://weizhijs.github.io/waijbe/h.htm](https://weizhijs.github.io/waijbe/h.htm)
 - 下载：<a href="https://wzjs.lanzouq.com/b00uzp6gd" target="_blank">https://wzjs.lanzouq.com/b00uzp6gd</a>
 
 ### 幸运方块by未知
@@ -22,5 +23,6 @@
 - 下载：<a href="https://wzjs.lanzouq.com/b00vbemuj" target="_blank">https://wzjs.lanzouq.com/b00vbemuj</a>
 
 
-感谢支持！
+感谢支持！  
+
 注：该链接已废弃 ~~https://wzjs.lanzouq.com/b00tallbi~~
