@@ -2,26 +2,29 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>等价交换BE重制版by未知(weizhijs.github.com)</title>
+<title>等价交换BE重制版by未知(weizhijs.github.io)</title>
 </head>
 <body>
 <h1>等价交换BE重制版by未知</h1>
 
-<p><a href="https://weizhijs.github.io/">返回主页</a><br>目录<br>1.<a href="#introduction">组件介绍</a><br>2.<a href="#links">相关链接</a></p>
+<p><a href="https://weizhijs.github.io/">返回主页</a><br>目录<br>
+  1.<a href="#introduction">组件简介</a><br>
+  2.<a href="#links">相关链接</a></p>
 
-<h2 id="introduction">组件介绍</h2>
+<h2 id="introduction">组件简介</h2>
 <p>西瓜视频搜索：迪粉未知解说</p>
 <p>等价交换（ProjectE）原本是一个知名的Java版Mod，现在我对其进行了基岩版（BE）重制！</p>
 <p><strong style="background-color: rgb(255, 255, 0);"><u>注：本addon思路由原作者SinKillerJ等的作品提供，此addon为基岩版重写，请尊重原作者！不喜勿喷！</u></strong></p>
 <p><strong style="background-color: yellow;"><u>本组件还原度未达到100%，且本组件存在一些作者暂无法解决的bug，敬请谅解。</u></strong></p>
 <p><strong>使用方法：</strong>在聊天栏中输入命令：<span style="background-color: yellow;">/function pehelp</span></p>
-<p>即可查看使用帮助。摘要如下：</p>
+<p>即可查看使用帮助。</p>
+<h3 id="h3help">使用帮助摘要如下：</h3>
 <p>[注意]: 请务必打开实验玩法中的 假日创造者功能 以及 测试版API(启用游戏测试框架) ! 否则无法正常使用本mod(等价交换BE重制版)的功能!</p>
 <p>1. 注意, 由于本mod的数据使用/tag和/scoreboard储存, 您不能清除带有pedata或projecte字眼的玩家的部分tag或部分计分板objective, 否则会导致mod无法正常工作! 由于api接口限制, 目前转化桌的ui比较简单, 无法完全还原Java版, 敬请谅解!</p>
-<p>2. §l注意, 目前不能出售的物品: 所有带附魔的装备和附魔书(附魔属性会吞), 所有耐久被消耗过的装备, 部分半砖, 部分生存模式无法获得的物品, 其他模组中可用原版物品合成的物品(微软暂未开发获取配方的API)等等! §r对于其他addon中的物品, 可以输入-projecte setEMC <EMC:int>定价, 或在安装本addon前编辑'projecte_config.js'。</p>
+<p>2. 注意, 目前不能出售的物品: 所有带附魔的装备和附魔书(附魔属性会吞), 所有耐久被消耗过的装备, 部分半砖, 部分生存模式无法获得的物品, 其他模组中可用原版物品合成的物品(微软暂未开发获取配方的API)等等! §r对于其他addon中的物品, 可以输入-projecte setEMC <EMC:int>定价, 或在安装本addon前编辑'projecte_config.js'。</p>
 <p>3. i.目前用转化桌出售物品的方法为: 将转化桌放置在地面上, 轻触(右键)转化桌, 即可打开转化桌操作页面; 也可手持1个便携式转化桌长按空气或点击地面; 在下拉栏中选择 出售物品 , 按提示操作即可;</p>
-<p>&nbsp;&nbsp;ii.目前用转化桌购买物品的方法为: 打开转化桌操作页面, 直接在文本框中输入要购买或搜索的物品, 并设置购买数量, 提交即可。</p>
-<p>&nbsp;&nbsp;iii.(1.20版本特性)注意, 使用转化桌方块时请手持任意物品使用, 否则可能无法正常打开转化桌界面。</p>
+<p>&nbsp;&nbsp;&nbsp;ii.目前用转化桌购买物品的方法为: 打开转化桌操作页面, 直接在文本框中输入要购买或搜索的物品, 并设置购买数量, 提交即可。</p>
+<p>&nbsp;&nbsp;&nbsp;iii.(1.20版本特性)注意, 使用转化桌方块时请手持任意物品使用, 否则可能无法正常打开转化桌界面。</p>
 <p>4. 您可以在聊天栏中输入 -projecte setEMC (简写为 -pe s )来为手持的物品定价, 对本存档全局生效。多人联机情况下, 稳定性未知。</p>
 <p>5. 本mod制作不易, 有条件请务必支持一下作者, 为爱发电! 感谢支持! 赞赏链接: <a href="https://afdian.net/a/weizhijs" target="_blank">https://afdian.net/a/weizhijs</a></p>
 <p>快捷指令：</p>
@@ -31,9 +34,9 @@
 <p>(4)  -projecte setemcfor <itemIdentifier:string> <customEMC:int> 可设置指定物品的EMC,与-projecte setEMC效果基本相同;</p>
 <p>(5)  -projecte getplayeremc self 获取自己的EMC;</p>
 <p>(6)  -projecte setplayeremc <EMC:int> 设置自己的EMC;</p>
-<p>若通过/function pehelp 手动使用该帮助指南后, 仍无法正常使用转化桌, 请手持任意物品后重试 §r</p>
+<p>若通过/function pehelp 手动使用该帮助指南后, 仍无法正常使用转化桌, 请手持任意物品后重试。</p>
 
-<p><span style="background-color: yellow;">本addon开发不易，如果对您有帮助，请务必去西瓜视频</span><strong style="background-color: yellow;">关注</strong><span style="background-color: yellow;">一下作者，谢谢！</span></p>
+<p><span style="background-color: yellow;">本mod制作不易，如果对您有帮助，请务必去西瓜视频</span><strong style="background-color: yellow;">关注</strong><span style="background-color: yellow;">一下作者，谢谢！</span></p>
 
 <hr>
 
@@ -44,6 +47,6 @@
 <p>赞赏链接：<a href="https://afdian.net/a/weizhijs" target="_blank">https://afdian.net/a/weizhijs</a></p>
 
 <hr>
-<p>参考资料：Scooby's ProjectE；ProjectEHD；https://www.mcmod.cn/class/353.html</p>
+<p>参考资料：https://www.curseforge.com/minecraft/mc-mods/projecte ；Scooby's ProjectE ；ProjectEHD ；https://www.mcmod.cn/class/353.html ；etc.</p>
 </body>
 </html>
