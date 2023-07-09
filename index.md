@@ -15,7 +15,7 @@
 - 下载：<a href="https://wzjs.lanzouq.com/b00v7ebuj" target="_blank">https://wzjs.lanzouq.com/b00v7ebuj</a>
 
 ### 等价交换BE（测试，1.19.0+）
-- 介绍：[https://weizhijs.github.io/dgjz/h.htm](https://weizhijs.github.io/dgjz/h.htm)
+- 介绍：[https://weizhijs.github.io/weizhipe/h.htm](https://weizhijs.github.io/weizhipe/h.htm)
 - 下载：<a href="https://wzjs.lanzouq.com/b00vpaq2f" target="_blank">https://wzjs.lanzouq.com/b00vpaq2f</a>
 
 ### 肝尽轮回BE（正在开发中）
