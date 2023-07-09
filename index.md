@@ -13,6 +13,7 @@
 - 下载：<a href="https://wzjs.lanzouq.com/b00uzp6gd" target="_blank">https://wzjs.lanzouq.com/b00uzp6gd</a>
 
 ### 幸运方块by未知
+- 介绍：[https://weizhijs.github.io/luckyblock/h.htm](https://weizhijs.github.io/luckyblock/h.htm)
 - 下载：<a href="https://wzjs.lanzouq.com/b00v7ebuj" target="_blank">https://wzjs.lanzouq.com/b00v7ebuj</a>
 
 ### 等价交换BE（测试，1.19.0+）
@@ -20,6 +21,7 @@
 - 下载：<a href="https://wzjs.lanzouq.com/b00vpaq2f" target="_blank">https://wzjs.lanzouq.com/b00vpaq2f</a>
 
 ### 肝尽轮回BE（正在开发中）
+- 介绍：请参考作者相关视频
 - 下载：<a href="https://wzjs.lanzouq.com/b00vbemuj" target="_blank">https://wzjs.lanzouq.com/b00vbemuj</a>
 
 
