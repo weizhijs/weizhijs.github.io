@@ -12,7 +12,7 @@
   1.<a href="#introduction">组件简介</a></p>
   <p>2.<a href="#items">各物品介绍</a></p>
   <p>3.<a href="#links">相关链接</a></p>
-  <p>4.<a href="#update">更新日志</a></p>
+  <p>4.<a href="#u">更新日志</a></p>
 
 <h2 id="introduction">组件简介</h2>
 <p>西瓜视频搜索：迪粉未知解说</p>
@@ -140,8 +140,10 @@
 <p>2、长按屏幕或对生物长按(PC右键)转换生物<br>
 长按屏幕或对生物长按，即可发射异变宝珠转换生物，单次消耗384EMC。<br>
 转换友好生物类别列表如下：
+["minecraft:bat","minecraft:chicken","minecraft:cow","minecraft:donkey","minecraft:horse","minecraft:mooshroom","minecraft:mule","minecraft:parrot","minecraft:pig","minecraft:rabbit","minecraft:sheep","minecraft:squid","minecraft:villager","minecraft:cat","minecraft:ocelot","minecraft:fox","minecraft:llama","minecraft:polar_bear","minecraft:wolf","minecraft:turtle","minecraft:dolphin","minecraft:bee","minecraft:panda","minecraft:glow_squid","minecraft:cod","minecraft:salmon","minecraft:tropicalfish","minecraft:pufferfish","minecraft:wandering_trader","minecraft:strider","minecraft:goat","minecraft:frog","minecraft:tadpole","minecraft:axolotl"]
 <br>
 转换敌对生物类别列表如下：
+["minecraft:blaze","minecraft:cave_spider","minecraft:creeper","minecraft:elder_guardian","minecraft:enderman","minecraft:endermite","minecraft:ghast","minecraft:guardian","minecraft:husk","minecraft:magma_cube","minecraft:shulker","minecraft:silverfish","minecraft:skeleton","minecraft:slime","minecraft:spider","minecraft:stray","minecraft:witch","minecraft:wither_skeleton","minecraft:zombie","minecraft:zombie_pigman","minecraft:zombie_villager","minecraft:zombie_horse","minecraft:skeleton_horse","minecraft:vindicator","minecraft:evocation_illager","minecraft:vex","minecraft:drowned","minecraft:phantom","minecraft:pillager","minecraft:piglin","minecraft:hoglin","minecraft:zoglin","minecraft:piglin_brute"]
 </p>
 <p>原版物品EMC定价信息可参考 <a href="https://weizhijs.github.io/weizhipe/emcprices.htm">https://weizhijs.github.io/weizhipe/emcprices.htm</a></p>
 <p>（未完待续）</p>
@@ -156,9 +158,9 @@
 <p>赞赏链接：<a href="https://afdian.net/a/weizhijs" target="_blank">https://afdian.net/a/weizhijs</a></p>
 
 <hr>
-<h2 id="update">更新日志</h2>
+<h2 id="u">等价交换BE_by未知---更新日志</h2>
 <p>导览<br>
-  <a href="#v105">v1.0.5(测试版)-1.20.10+</a><br>
+  <a href="#v105">v1.1(正式版)-1.20.10+</a><br>
   <a href="#v104">v1.0.4(测试版)-1.20.10+</a><br>
   <a href="#v101">v1.0-1.20.0+</a><br>
   <a href="#v09">v0.9-1.19.80+</a><br>
@@ -171,26 +173,32 @@
   <a href="#v02">v0.2-1.18.30</a><br>
   <a href="#v01">v0.1-1.18.30</a><br></p>
 
-<h3 id="v105">v1.0.5(测试版)-1.20.10+</h3>
-  待完善
+<h3 id="v105">v1.1(正式版)-1.20.10+</h3>
+  请使用1.20.10~1.20.15版本，并打开实验玩法中的“假日创造者功能”和“测试版API”！<br>
+  <strong style="background-color: yellow;">注意，该版本中更新了所有物品（不包含方块）的id。</strong>请务必同时装载旧版（如1.0.4），
+  并在聊天栏输入<br>
+  petest 更新id<br>
+  （备注：无-，直接输入文字，中间有一个空格）以更新物品至最新版本并存储到背包中。
+  否则将可能出现会吞物品的情况！<br>
+  更改贤者之石转换生物的实现方法，目前将发射对生物造成的伤害为零的抛射物。
 <h3 id="v104">v1.0.4(测试版)-1.20.10+</h3>
   测试版v1.0.4不稳定，请备份后加载！适配1.20.10，更改贤者之石转换生物的实现方法，目前抛射物对生物造成的伤害为零。
 <h3 id="v101">v1.0-1.20.0+</h3>
   适配1.20.0~1.20.1，修复了一些bug；现在可以使用贤者之石【右键/对空气长按】转换生物。【输入/function pehelp查看使用帮助】现在转化桌默认购买数量为1，且模式选择有非本地存储。
 <h3 id="v09">v0.9-1.19.80+</h3>
-  请务必使用1.19.80及以上版本，该版本在1.20.0上已不再可使用。本版本更新了脚本变量以适配1.19.80
+  请务必使用1.19.80及以上版本，该版本在1.20.0上已不再可使用。本版本更新了部分脚本变量以适配1.19.80。
 <h3 id="v08">v0.8-1.19.70+</h3>
   请务必使用1.19.70及以上版本。本版本修复了以往脚本吞快捷栏物品的问题，现在可以正常出售物品，且兼容了1.19.70版本的部分改动。若无法正常使用“转化桌”，请手动输入 /function pesetup
 <h3 id="v07">v0.7-1.19.60+</h3>
   请务必使用1.19.60及以上版本。相对v0.6修复了1.19.60上脚本转化桌初始化无法正常执行的问题。若无法正常使用“转化桌”，请手动输入 /function pesetup
 <h3 id="v06">v0.6-1.19.50+</h3>
-  修复了脚本arrow function执行错误的问题
+  修复了脚本arrow function执行错误的问题。
 <h3 id="v05">v0.5-1.19.50+</h3>
-  提高版本至1.19.50
+  提高版本至1.19.50。
 <h3 id="v04">v0.4-1.19.0+</h3>
-  修复了一些bug
+  修复了一些bug。
 <h3 id="v03">v0.3-1.19.0+</h3>
-  提高版本至1.19.0
+  提高版本至1.19.0。
 <h3 id="v02">v0.2-1.18.30</h3>
   增加便携式转化桌，方块更名为转化桌。
 <h3 id="v01">v0.1-1.18.30</h3>
