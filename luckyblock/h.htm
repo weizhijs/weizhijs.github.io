@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>幸运方块BE by未知(weizhijs.github.io)</title>
+<!--
+<meta name="generator" content="Jekyll v3.9.3">
+<meta property="og:title" content="weizhijs.github.io">
+<meta property="og:locale" content="en_US">
+<link rel="canonical" href="https://weizhijs.github.io/">
+<meta property="og:url" content="https://weizhijs.github.io/">
+<meta property="og:site_name" content="weizhijs.github.io">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="weizhijs.github.io">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"weizhijs.github.io","name":"weizhijs.github.io","url":"https://weizhijs.github.io/"}</script>
+<!- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="preload" href="./h_files/css" as="style" type="text/css" crossorigin="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="./h_files/style.css">
+    <!- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body id="io_main_body" style="background-color:black;color:rgb(176, 176, 176);">
+    <!--<a id="skip-to-content" href="https://weizhijs.github.io/#content">Skip to the content.</a>
+    -->
+    <!--
+    <header class="page-header" role="banner">
+      <h1 class="project-name" style="color:rgb(224,224,224);">weizhijs's official website</h1>
+      <h2 class="project-tagline" style="color:rgb(208,208,208);">https://weizhijs.github.io/en/m.html</h2>
+    </header>
+    -->
+
+    <main id="content" class="main-content" role="main">
+      <!--<h6 id="weizhijsgithubio">weizhijs.github.io</h6>-->
+      <h3 id="language" style="text-align: left;"><a href="https://weizhijs.github.io/"><strong><u>点此返回主页</u></strong></a></h3>
+
+<h1 style="text-align: center;"><strong>幸运方块</strong>BE by未知（还原版）</h1>
+    <p>目录
+      <br />1.
+      <a href="#introduction"><u>组件介绍</u></a>
+      <br />2.
+      <a href="#links"><u>相关链接</u></a>
+    </p>
+    <h2 id="introduction"><strong>组件介绍</strong></h2>
+    <!--<p>
+      <strong style="background-color: gold;">
+        <u>请务必认真阅读以下内容！！！</u>
+      </strong>
+    </p>-->
+    <p>
+      <u style="background-color: gold; color: black;">请务必打开实验玩法中的</u>
+      <strong style="background-color: gold; color: red;">
+        <u>假日创造者功能！</u>
+      </strong>
+      <u>否则无法正常使用组件的功能！可能与修改了玩家行为（entities/player.json）的addon冲突</u>
+    </p>
+    <p>此addon部分功能还在<strong>测试</strong>中，敬请谅解！不喜勿喷！（见作者西瓜视频号的视频，西瓜搜索迪粉未知解说）</p>
+    <p>
+      <strong>
+        <u>2.13更新</u>
+      </strong>：1.
+      <strong>新增幸运弓、幸运药水，配方见后文</strong>，目前只能用一些数量的铁锭提升幸运值，一定数量的腐肉减少幸运值</p>
+    <p>2.
+      <strong>由于技术原因，幸运弓目前为瞬发模式，且没有额外的准心，建议打开</strong><strong style="background-color: gold; color: red;">准星瞄准</strong><strong>游玩</strong>！后续会尽量做出优化</p>
+    <p>3.幸运剑、幸运弓的有些附魔可能不生效</p>
+    <p>4.
+      <strong>末地外岛</strong>应可以正常生成幸运方块</p>
+    <p>
+      <s>5.你可能不再需要开启自定义生物群系和其他修改功能了</s>
+    </p>
+    <p>该幸运方块模组还原了原版幸运方块的绝大部分物品及事件，还包括幸运剑等幸运装备，普通幸运方块开出好东西与坏东西的概率相同。</p>
+    <p>幸运方块可通过以下方式获得：</p>
+    <p>1、在工作台上用8个金锭和一个<strong>投掷器</strong>即可合成一个0幸运值的幸运方块。</p>
+    <p>
+      <img src="https://weizhijs.github.io/luckyblock/src/l1.png">
+    </p>
+    <p>2、使用指令<code>/function luckygive</code><strong>（可获得所有主要物品）</strong>或 <code>/give @p weizhi:lucky_block</code></p>
+    <p>3、好的幸运方块有较大概率在沙漠生成（石英小屋），霉运方块有概率在平原、沙漠等地生成，普通幸运方块会在末地大量生成（
+      <strong>
+        <s>若生成在空中或水上，纯属mc特性</s>
+      </strong>），也有较小概率在主世界生成。若在末地虚空生成大量方块，我暂无好的解决方案，可以先搞一个
+      <strong>/tickingarea</strong>然后再配置循环命令方块：
+      <code>/execute @r ~~~ fill ~-90 0 ~-90 ~90 0 ~90 air</code>
+    </p>
+    <p>
+      <img src="https://weizhijs.github.io/luckyblock/src/l2.png">
+    </p>
+    <p>幸运方块的幸运值越高，开出好东西的概率越大，可通过铁锭等物品加幸运值，腐肉等降低幸运值。</p>
+    <p>目前升级配方：1方块+8铁/1+4金/1+2钻，降级配方：5个腐肉</p>
+    <p>
+      <img src="https://weizhijs.github.io/luckyblock/src/l3.png">
+    <br />
+      <img src="https://weizhijs.github.io/luckyblock/src/l4.png">
+    </p>
+    <p>
+      <strong>幸运剑、幸运弓、幸运药水</strong>也内置了很多丰富的事件，但
+      <strong>小心有时候也会对你造成伤害</strong>！均可通过
+      <strong>开幸运方块</strong>或使用
+      <strong>/function luckygive</strong>获得，目前只能通过一定数量的铁锭或腐肉改变幸运值</p>
+    <p>
+      <img src="https://weizhijs.github.io/luckyblock/src/l5.jpg">
+    </p>
+    <p>幸运方块可开出上百种物品或组合，也可开出几十种事件，至于是什么全靠运气，风险较大，欢迎品尝！</p>
+    <p>
+      <img src="https://weizhijs.github.io/luckyblock/src/l10.png">
+      <br />
+      <img src="https://weizhijs.github.io/luckyblock/src/l11.png">
+      <br />
+      <img src="https://weizhijs.github.io/luckyblock/src/l12.png">
+    </p>
+    <p>注：
+      <strong>
+        <u>部分模组源码来源于网络，仅供参考使用。免费组件制作不易，不喜勿喷！！！喜欢就请给个好评，再去西瓜给作者个免费的关注吧！</u>
+      </strong>
+    </p>
+    <p>西瓜视频搜索：迪粉未知解说</p>
+    <p>
+      <img src="https://weizhijs.github.io/luckyblock/src/l13.png">
+    </p>
+    <p>关键词：幸运方块，运气，幸运，倒霉，幸运方块（还原版）</p>
+    <hr style="color:black;background-color:#202020;border-color:black;"/>
+    <h2 id="links"><strong>相关链接</strong></h2>
+    <p>迪粉未知解说
+      <a href="https://weizhijs.github.io/">github官网主页</a>
+    </p>
+    <p>组件下载：
+      <a href="https://wzjs.lanzouq.com/b00v7ebuj" target="_blank">https://wzjs.lanzouq.com/b00v7ebuj</a>
+    </p>
+    <p>赞赏链接：
+      <a href="https://afdian.net/a/weizhijs" target="_blank">https://afdian.net/a/weizhijs</a>
+    </p>
+
+
+<script>
+function io_main_darkmode(){
+  var x=document.getElementById("io_main_body");
+  //alert(`color ${x.style["background-color"]=="rgb(208, 208, 208)"}`);
+  var i=0;
+  if (x.style["background-color"]=="black"){
+    setTimeout(function(){x.style["background-color"]=`rgb(8, 8, 8)`;},15);
+    setTimeout(function(){x.style["background-color"]=`rgb(16, 16, 16)`;},30);
+    setTimeout(function(){x.style["background-color"]=`rgb(24, 24, 24)`;},45);
+    setTimeout(function(){x.style["background-color"]=`rgb(32, 32, 32)`;},60);
+    setTimeout(function(){x.style["background-color"]=`rgb(40, 40, 40)`;},75);
+    setTimeout(function(){x.style["background-color"]=`rgb(48, 48, 48)`;},90);
+    setTimeout(function(){x.style["background-color"]=`rgb(56, 56, 56)`;},105);
+    setTimeout(function(){x.style["background-color"]=`rgb(64, 64, 64)`;},120);
+    setTimeout(function(){x.style["background-color"]=`rgb(72, 72, 72)`;},135);
+    setTimeout(function(){x.style["background-color"]=`rgb(80, 80, 80)`;},150);
+    setTimeout(function(){x.style["background-color"]=`rgb(88, 88, 88)`;},165);
+    setTimeout(function(){x.style["background-color"]=`rgb(96, 96, 96)`;},180);
+    setTimeout(function(){x.style["background-color"]=`rgb(104, 104, 104)`;},195);
+    setTimeout(function(){x.style["background-color"]=`rgb(112, 112, 112)`;},210);
+    setTimeout(function(){x.style["background-color"]=`rgb(120, 120, 120)`;},225);
+    setTimeout(function(){x.style["background-color"]=`rgb(128, 128, 128)`;},240);
+    setTimeout(function(){x.style["background-color"]=`rgb(136, 136, 136)`;},255);
+    setTimeout(function(){x.style["background-color"]=`rgb(144, 144, 144)`;},270);
+    setTimeout(function(){x.style["background-color"]=`rgb(152, 152, 152)`;},285);
+    setTimeout(function(){x.style["background-color"]=`rgb(160, 160, 160)`;},300);
+    setTimeout(function(){x.style["background-color"]=`rgb(168, 168, 168)`;},315);
+    setTimeout(function(){x.style["background-color"]=`rgb(176, 176, 176)`;},330);
+    setTimeout(function(){x.style["background-color"]=`rgb(184, 184, 184)`;},345);
+    setTimeout(function(){x.style["background-color"]=`rgb(192, 192, 192)`;},360);
+    setTimeout(function(){x.style["background-color"]=`rgb(200, 200, 200)`;},375);
+    setTimeout(function(){x.style["background-color"]=`rgb(208, 208, 208)`;},390);
+    x.style["color"]="black";
+  } else {
+    //x.style["background-color"]="black";
+    setTimeout(function(){x.style["background-color"]=`rgb(200, 200, 200)`;},15);
+    setTimeout(function(){x.style["background-color"]=`rgb(192, 192, 192)`;},30);
+    setTimeout(function(){x.style["background-color"]=`rgb(184, 184, 184)`;},45);
+    setTimeout(function(){x.style["background-color"]=`rgb(176, 176, 176)`;},60);
+    setTimeout(function(){x.style["background-color"]=`rgb(168, 168, 168)`;},75);
+    setTimeout(function(){x.style["background-color"]=`rgb(160, 160, 160)`;},90);
+    setTimeout(function(){x.style["background-color"]=`rgb(152, 152, 152)`;},105);
+    setTimeout(function(){x.style["background-color"]=`rgb(144, 144, 144)`;},120);
+    setTimeout(function(){x.style["background-color"]=`rgb(136, 136, 136)`;},135);
+    setTimeout(function(){x.style["background-color"]=`rgb(128, 128, 128)`;},150);
+    setTimeout(function(){x.style["background-color"]=`rgb(120, 120, 120)`;},165);
+    setTimeout(function(){x.style["background-color"]=`rgb(112, 112, 112)`;},180);
+    setTimeout(function(){x.style["background-color"]=`rgb(104, 104, 104)`;},195);
+    setTimeout(function(){x.style["background-color"]=`rgb(96, 96, 96)`;},210);
+    setTimeout(function(){x.style["background-color"]=`rgb(88, 88, 88)`;},225);
+    setTimeout(function(){x.style["background-color"]=`rgb(80, 80, 80)`;},240);
+    setTimeout(function(){x.style["background-color"]=`rgb(72, 72, 72)`;},255);
+    setTimeout(function(){x.style["background-color"]=`rgb(64, 64, 64)`;},270);
+    setTimeout(function(){x.style["background-color"]=`rgb(56, 56, 56)`;},285);
+    setTimeout(function(){x.style["background-color"]=`rgb(48, 48, 48)`;},300);
+    setTimeout(function(){x.style["background-color"]=`rgb(40, 40, 40)`;},315);
+    setTimeout(function(){x.style["background-color"]=`rgb(32, 32, 32)`;},330);
+    setTimeout(function(){x.style["background-color"]=`rgb(24, 24, 24)`;},345);
+    setTimeout(function(){x.style["background-color"]=`rgb(16, 16, 16)`;},360);
+    setTimeout(function(){x.style["background-color"]=`rgb(8, 8, 8)`;},375);
+    setTimeout(function(){x.style["background-color"]=`black`;},390);
+    x.style["color"]="rgb(176, 176, 176)";
+  }
+}
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+<p><button type="button" style="background-color:black;color:grey;" onclick="io_main_darkmode()">点此切换至浅色模式/深色模式</button></p>
+
+<hr style="color:black;background-color:#202020;border-color:black;"/>
+<!--
+        <p><span class="site-footer-credits">This page was generated by <a href="https://pages.github.com/">GitHub Pages</a>.</span></p>
+-->
+    </main>
+<!-- 
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js/lib/darkmode-js.min.js"></script>
+<script>new Darkmode().showWidget();
+</script>
+-->
+</body></html>
