@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>等价交换BE by未知(weizhijs.github.io)</title>
+
+    <link rel="shortcut icon" href="./h_files/main_head_icon.png">
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="preload" href="./h_files/css" as="style" type="text/css" crossorigin="">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="./h_files/style.css">
+
+  </head>
+  <body id="io_main_body" style="background-color:black;color:rgb(176, 176, 176);">
+
+    <main id="content" class="main-content" role="main">
+
+<h3 id="language" style="text-align: left;"><a href="https://weizhijs.github.io/"><strong><u>Return to the main page</u></strong></a></h3>
+
+<h1 style="text-align: center;"><strong>ProjectE BE (Remastered)</strong> by weizhijs</h1>
+
+
+
+<p>Table of Contents<br />
+  1. <a href="#introduction"><u>Brief introduction</u></a><br />
+  2. <a href="#items"><u>Description of each item</u></a><br />
+  3. <a href="#links"><u>Related links</u></a><br />
+  4. <a href="#u"><u>Update log</u></a></p>
+<h2 id="introduction">Brief introduction</h2>
+<p>Creator: weizhijs</p>
+<p>ProjectE was originally a well-known Mod in Minecraft: Java Edition, and now I've done a Bedrock Add-on remake of it!</p>
+<p><strong style="background-color: gold;color:black;"><u>Note: The ideas of this Add-on are provided by the original authors(SinKillerJ, pupnewfster, et al. ), and special thanks are hereby given. This Add-on is rewritten for Minecraft: Bedrock Edition.</u></strong></p>
+<p><strong style="background-color: gold;color:black;"><u>This Add-on is not fully restored, and there are some bugs that I can't fix yet. Thanks for understanding.</u></strong></p>
+<p>Run <code><b>/function pehelp</b></code> command in Minecraft to view the usage help.</p>
+<h3 id="h3help">The usage help is summarized below:</h3>
+<p><strong style="background-color: gold;color:black;">Please be sure to enable "Holiday Creator Features" and "Beta APIs" in the experimental gameplay!</strong></p>
+<p>1. Because the data in this Add-on is stored using /tag and /scoreboard, you cannot clear player's partial tag or partial scoreboard objectives with the word "pedata" or "projecte", otherwise the mod will not work properly. Due to API interface restrictions, the ui of the current Transmutation Table is simple. Thanks for understanding.</p>
+<p>2. Items that are not currently available for sale are: all enchanted equipment and enchantment books (enchantment attributes will be ignored), all durable consumed equipment, some half bricks, some items that cannot be obtained in Survival mode, and other custom items that can be crafted with vanilla items (Microsoft has not yet developed an API for obtaining recipes) and so on! For other items in addon, you can enter <code>-projecte setEMC &#60;EMC:int&#62;</code> to price, or edit "scripts/projecte_config.js" before installing this Add-on.</p>
+<p>3. i. At present, the method of selling items with the Transmutation Table is as follows: place the Transmutation Table on the ground and use it to open the Transmutation Table operation page; It can also be used directly with a Transmutation Tablet. Just select the "sell" from the drop-down list and follow the prompts.</p>
+<p>&nbsp;&nbsp;&nbsp;ii. The method of purchasing items with the Transmutation Table is as follows: Open the Transmutation Table operation page, select the "purchase" from the drop-down list, then enter the items to buy or search directly in the text box and set the purchase quantity. Then submit it.</p>
+<p>4. You can enter -projecte setEMC in the chat bar to set up a custom EMC for your hand-held items, which takes effect globally for this world.</p>
+<p>The custom commands are as follows:</p>
+<dl>
+<li><code>-projecte help</code><br />Display the above help text in the game. <code>/function pehelp</code> can also be used.</li>
+<li><code>-projecte setEMC &#60;customEMC:int&#62;</code><br />The EMC for handheld items can be set with this command. Please note that setting the EMC too high can lead to errors. If the &#60;customEMC&#62; is set to the string <code>d</code>, the EMC of the item is reset to the default value. (The short version of this command is: <code>-pe s &#60;customEMC:int&#62;</code> ) (Some examples: <code>-projecte setEMC 1000</code> Set the EMC of the handheld item to 1000; <code>-pe setEMC d</code> Reset the EMC of the item to the default value;)</li>
+<li><code>-projecte reloadEMC</code><br />You can refresh the item's EMC value (now you can also set a custom EMC <strong>without</strong> using this command and try to sync to the world, just use <code>-projecte setEMC &#60;customEMC:int&#62;</code>)</li>
+<li><code>-projecte setemcfor &#60;itemIdentifier:string&#62; &#60;customEMC:int&#62;</code><br />The EMC of the specified item can be set, which has almost the same effect as <code>-projecte setEMC &#60;customEMC:int&#62;</code>.</li>
+<li><code>-projecte getplayeremc self</code><br />Get your own EMC with this command.</li>
+<li><code>-projecte setplayeremc &#60;EMC:int&#62;</code><br />Set your own EMC with this command.</li>
+</dl>
+<p><span style="background-color: gold;color:black;">This Add-on is not easy to remake. If you think this Add-on is good, I hope you can support me. Thanks for the donation! Donate link:<a href="https://afdian.net/a/weizhijs" target="_blank"><u>https://afdian.net/a/weizhijs</u></a></span><br />If you find some bugs or have any problems, here is my email address: 2821907910@qq.com</p>
+<hr style="color:black;background-color:#202020;border-color:black;"/>
+
+<h2 id="items">Description of each item</h2>
+
+<h3>1. Transmutation Table and Transmutation Tablet</h3>
+<p>You can use 4 Stones, 4 Obsidian, and 1 Philosopher's Stone to create a Transmutation Table.</p>
+
+<p>In the current version, the Transmutation Table made by "@minecraft-server-ui" cannot completely restore the original ui, thanks for understanding.</p>
+<p>After opening the Transmutation Table screen using a Transmutation Table block, you can select the <strong>mode</strong>.</p>
+<p>Mode 1: Buy or Search<br />
+After selecting this option to Submit directly, you need to select the items you want to purchase from the learned list. <br />
+You can also use the text box to search. If you enter keywords in the text box, such as <code>diam</code>, all items with id containing <code>diam</code> will be displayed, such as diamond, diamond_block, diamond_pickaxe, etc. If you enter the item id, such as <code>diamond_sword</code>, you can adjust the purchase quantity by sliding below, then click Submit to purchase.</p>
+<p>Mode 2: Buy (Select directly from Drop-down)<br />
+After selecting this option to Submit directly, you need to select the items you want to purchase from the learned list.</p>
+<p>Mode 3: Sell<br />
+Click Submit, then select the items you want to sell in the backpack from the drop-down box above. This operation will directly sell this group of items.<br />
+Note: Please do not sell items that contain enchantment properties. These properties will be ignored.</p>
+<p>Mode 4: Forget learned items<br />
+Enter the item id in the text box to forget the item. This means that the item cannot be purchased until you sell it again.</p>
+<!--<p>Mode 5:充能（开发中）<br />
+针对卡莱恩能量之星等，可以执行充能操作，在选项中选择需要充能的对象即可将当前转化桌所有EMC值存入充能对象中。若EMC值大于充能最大值，则充能量等于充能最大值。针对能量已充满的对象，选择即可执行反充能，将EMC值转移到转化桌内。</p>-->
+<p>Use the Transmutation Tablet to open the interface. The operating interface is the same as the Transmutation Table, as above.</p>
+
+<h3>2、贤者之石使用方法</h3>
+<p>合成如原版，材料：萤石粉*4 + 红石粉*4 + 钻石*1</p>
+
+<p>功能：</p>
+<p>（1）轻触地面(PC右键)转换方块<br />
+充能方式：在聊天栏输入 V <br />
+即可在0～4共5个充能模式中切换，0～4级的作用体积分别为1*1*1，3*3*3，5*5*5，7*7*7，9*9*9。<br />
+注：目前暂不支持修改作用体积模式为直线或平面。<br />
+转换方块信息如下：
