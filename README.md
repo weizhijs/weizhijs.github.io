@@ -41,7 +41,7 @@
 </ul>
 
 <p><strong>感谢支持！</strong><br />
-捐赠：<a href="https://afdian.net/a/weizhijs" target="_blank"><u>https://afdian.net/a/weizhijs</u></a></p>
+捐赠：<a href="https://afdian.com/a/weizhijs" target="_blank"><u>https://afdian.com/a/weizhijs</u></a></p>
 
 <p>注：该链接已废弃 <del>https://wzjs.lanzouq.com/b00tallbi</del></p>
 
